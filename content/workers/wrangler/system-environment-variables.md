@@ -10,7 +10,7 @@ System Environment Variables are process environment variables that are availabl
 
 1. Setting an`.env` file in your project directory this is the recommended & persistent way to set these variables.
 2. Inlining the values in your Wrangler command for one-off use cases, for example `WRANGLER_LOG="debug" wrangler publish`.
-3. Setting them in your shell environment persists depending on the shell settings, for example `export CF_API_TOKEN=...`.
+3. Setting the values in your shell environment persists depending on the shell settings, for example `export CF_API_TOKEN=...`.
 
 **Currently, Wrangler supports the following System Environment Variables:**
 
