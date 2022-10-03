@@ -12,7 +12,7 @@ System Environment Variables are local environment variables that can change Wra
 2. Inlining the values in your Wrangler command. For example, `WRANGLER_LOG="debug" wrangler publish` will set the value of `WRANGLER_LOG` to "debug" for this execution of the command.
 3. Setting the values in your shell environment. For example, if you're using Z shell, adding `export CF_API_TOKEN=...` to your `~/.zshrc`  file will set this token as part of your shell configuration.
 
-**Currently, Wrangler supports the following System Environment Variables:**
+**Currently, Wrangler supports the following environment variables:**
 
 - `"CLOUDFLARE_ACCOUNT_ID"`: The account ID for the Workers related account, can be found in the Cloudflare dashboard, can usually be inferred by Wrangler.
 - `"CLOUDFLARE_API_TOKEN"`: The API token for your Cloudflare account, can be used for authentication for situations like CI/CD, and other automation.
